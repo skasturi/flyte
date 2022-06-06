@@ -1,8 +1,6 @@
 name: Contributors
 
-on:
-  schedule:
-    - cron: '0 12 * * 1' # At 12 noon on Monday.
+on: [pull_request]
 
 jobs:
   contributors:
